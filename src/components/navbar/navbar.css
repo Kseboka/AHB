@@ -1,0 +1,96 @@
+nav {
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.navbar.active {
+  background: #000;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-logo-container {
+  justify-self: center;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+}
+.nav-btn {
+  justify-self: end;
+}
+
+@media only screen and (max-width: 1250px) {
+  #hidden {
+    display: none;
+  }
+
+  .navbar {
+    grid-template-areas:
+      'logo logo logo'
+      'links links links'
+      'cta cta cta';
+    font-size: 3rem;
+  }
+
+  #navbar-alt {
+    height: 100vh;
+    background: black;
+  }
+
+  .nav-logo_toggle-container {
+    display: grid;
+    grid-template-areas: 'toggle logo ...';
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .nav-logo {
+    grid-area: logo;
+    justify-self: center;
+    font-size: 2rem;
+  }
+
+  .nav-toggle {
+    display: block;
+    grid-area: toggle;
+    justify-self: start;
+  }
+
+  .nav-links {
+    grid-area: links;
+    flex-direction: column;
+  }
+  .text-link {
+    font-size: 3rem;
+  }
+
+  .nav-btn {
+    grid-area: cta;
+    justify-self: center;
+  }
+}

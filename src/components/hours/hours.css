@@ -1,0 +1,16 @@
+#hours {
+  width: 100%;
+}
+#hours h2 {
+  text-align: center;
+  border-bottom: whitesmoke 2px solid;
+  margin-bottom: 1rem;
+}
+#hours table {
+  width: 100%;
+}
+#hours tr {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}

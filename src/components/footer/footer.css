@@ -1,0 +1,32 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 0 1rem 0;
+  width: 100vw;
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-socials a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+}
+.footer-contact a {
+  text-decoration: none;
+  color: grey;
+}

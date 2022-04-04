@@ -1,0 +1,51 @@
+.text-link:link,
+.text-link:visited,
+.btn-link:link,
+.btn-link:visited {
+  /* font-size: 1rem; */
+  text-decoration: none;
+  color: white;
+}
+
+.btn-link {
+  border: 1px solid whitesmoke;
+  padding: 0.5rem;
+  margin: 1px;
+}
+
+.text-link:hover {
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-link_alt:link,
+.btn-link_alt:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-link_alt {
+  background-color: rgb(245, 245, 245);
+  color: black;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-link_alt:hover {
+  background-color: rgb(245, 245, 245, 0.7);
+  color: rgb(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1250px) {
+  .text-link {
+    font-size: 3rem;
+  }
+}

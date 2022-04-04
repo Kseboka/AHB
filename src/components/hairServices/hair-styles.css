@@ -1,0 +1,36 @@
+.styles-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styles-container h1 {
+  margin-bottom: 3rem;
+}
+
+.styles-container table {
+  width: 100%;
+}
+
+.styles-container table tr {
+  padding: 1rem 0;
+}
+
+.styles-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  font-size: 1.5rem;
+}
+
+.styles-content {
+  display: flex;
+  justify-content: space-between;
+}
+.styles-content:hover {
+  background-color: whitesmoke;
+  color: black;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}

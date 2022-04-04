@@ -1,0 +1,19 @@
+.find-us {
+  width: 100%;
+}
+
+.find-us h2 {
+  text-align: center;
+  border-bottom: 2px whitesmoke solid;
+  margin-bottom: 1rem;
+}
+
+.find-us-table {
+  width: 100%;
+}
+.find-us-table tr {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  text-align: end;
+}
