@@ -1,6 +1,4 @@
 import '../hero/hero.css'
-import heroImg from '../../assets/hero-img.jpeg'
-import heroImg2 from '../../assets/hero-img-2.jpeg'
 import heroImg3 from '../../assets/hero-img-3.jpeg'
 import Link from '../../shared/Link'
 import { Parallax } from 'react-parallax'
@@ -21,8 +19,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-//       <small>Finest Quality Hair Braiding</small>
-{
-  /* <p>In Minnesota</p> */
-}
