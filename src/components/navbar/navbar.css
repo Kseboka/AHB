@@ -28,6 +28,10 @@ nav {
   justify-self: center;
 }
 
+.nav-logo img {
+  width: 200px;
+}
+
 .nav-logo a {
   text-decoration: none;
   color: white;
@@ -72,7 +76,10 @@ nav {
   .nav-logo {
     grid-area: logo;
     justify-self: center;
-    font-size: 2rem;
+  }
+
+  .nav-logo img {
+    width: 150px;
   }
 
   .nav-toggle {

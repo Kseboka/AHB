@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import MenuIcon from '@mui/icons-material/Menu'
 import Link from '../../shared/Link'
+import Logo from '../../assets/Logo - White.png'
+import Logo2 from '../../assets/LogoAltWhite.png'
+
 import './navbar.css'
 
 const NavBar = () => {
@@ -38,9 +41,11 @@ const NavBar = () => {
           </Link>
         </div>
         <div className='nav-logo-container nav-logo_toggle-container align-layout'>
-          <h1 className='nav-logo'>
-            <a href='/'>AHB</a>
-          </h1>
+          {/* <h1 className='nav-logo'> */}
+          <a className='nav-logo' href='/'>
+            <img src={Logo2} alt='' srcset='' />
+          </a>
+          {/* </h1> */}
           <button
             className='nav-toggle'
             onClick={() => {
