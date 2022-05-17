@@ -5,7 +5,7 @@ import '../footer/footer.css'
 
 const Footer = () => {
   return (
-    <footer className=''>
+    <footer>
       <div className='footer-container align-layout'>
         <div className='footer-socials'>
           <a href='https://www.facebook.com'>
